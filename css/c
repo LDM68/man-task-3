@@ -1,0 +1,19 @@
+.cart {
+    height: auto;
+    padding: 25px 0;
+    morgin-left: 25%;
+    padding-top: 4%;
+    line-height: 1.25;
+    transition: 0.5s;
+    position: relative;
+    display: inline;
+}
+
+h2.block2 {
+    color: "grey";
+    font-size: 32px;
+    font-family: "Trebuchet MS", "FreeMono", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+}
