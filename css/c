@@ -1,19 +1,29 @@
-.cart {
-    height: auto;
-    padding: 25px 0;
-    morgin-left: 25%;
-    padding-top: 4%;
-    line-height: 1.25;
-    transition: 0.5s;
-    position: relative;
-    display: inline;
+body{
+    margin: 0;
+    font-family: sans-serif;
 }
-
-h2.block2 {
-    color: "grey";
-    font-size: 32px;
-    font-family: "Trebuchet MS", "FreeMono", sans-serif;
-    font-weight: bold;
-    width: 100%;
+.section{
+    background: 
     display: flex;
+    jastify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+.section img{
+    height: 250px;
+}
+.section h2{
+    margin: 0;
+   color: grey;
+}
+.section p{
+    color:  rgb(255, 178, 127);
+}
+.box{
+    background: url(../pich.jpg);
+    height: 250vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
